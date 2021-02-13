@@ -33,10 +33,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/Antony-Melendez/Horizon">
-    <img src="Horizon logo.png" alt="Logo" width="100" height="100">
+    <img src="Horizon logo.png" alt="Logo" width="250" height="250">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Horizon</h3>
 
   <p align="center">
     project_description
