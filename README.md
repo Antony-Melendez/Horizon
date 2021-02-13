@@ -1,4 +1,9 @@
-
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -7,7 +12,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -54,7 +58,6 @@ Video game (Platformer) Currently migrating to the Unreal engine from Unity
 2. Open the project in Unreal engine 4.25
 
 
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -65,26 +68,12 @@ See the [open issues](https://github.com/Antony-Melendez/Horizon/issues) for a l
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
 Antony Melendez - [@_xycy_](https://www.instagram.com/_xycy_/) - email
 
 Project Link: https://github.com/Antony-Melendez/Horizon
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
