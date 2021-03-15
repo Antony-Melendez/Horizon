@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/.git": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/.github": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/.vscode": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/Content": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/DerivedDataCache": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/Intermediate": true,
+		"D:/User/Documents/Unreal Projects/Horizon/Horizon/Saved": true
+	}
+}

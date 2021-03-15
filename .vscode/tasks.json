@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Horizon Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win32",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"Win64",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Shipping",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Horizon IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "Horizon IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Horizon",
+				"IOS",
+				"Test",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorizonEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Debug",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorizonEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HorizonEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "HorizonEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HorizonEditor",
+				"Win64",
+				"Development",
+				"D:\\User\\Documents\\Unreal Projects\\Horizon\\Horizon\\Horizon.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\Epic Games\\UE_4.25"
+			}
+		}
+	]
+}
